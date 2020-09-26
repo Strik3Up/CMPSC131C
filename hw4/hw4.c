@@ -1,5 +1,6 @@
 // given a positive int n, return number of divisors for n between [1,n] inclusive 
 // You must use a while-loop for this function
+#include<stdio.h>
 int num_of_divisors(int n) {
   int c;
   int i;
@@ -42,6 +43,7 @@ int sum_n(int n) {
   int x;
   x = n;
   while (x > 0) {
+    int c;
     c = n + (x-1);
     x - 1;  
     if (x == 0) {
