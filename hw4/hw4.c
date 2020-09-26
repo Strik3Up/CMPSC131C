@@ -47,7 +47,7 @@ int sum_n(int n) {
     c = n + (x-1); 
     if (x == 0) {
       return c;
-    x-1;  
+    x-1;    
     }
   }
 }
@@ -56,7 +56,7 @@ int sum_n(int n) {
 // You must use a while-loop for this function, no recursion.
 void print_n(const char *s, int n) {
   while (n > 0) {
-    printf("%f", *s);
+    printf("%s", s);
     n-1;
   }
 }
