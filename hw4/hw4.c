@@ -37,6 +37,7 @@ int num_of_primes(int n) {
 // You must use a while-loop for this function, no recursion.
 int sum_n(int n) {
   int i;
+  int c;
   i = n;
   int x;
   x = n;
@@ -53,7 +54,7 @@ int sum_n(int n) {
 // You must use a while-loop for this function, no recursion.
 void print_n(const char *s, int n) {
   while (n > 0) {
-    printf("%s", *s);
+    printf("%f", s);
     n-1;
   }
 }
