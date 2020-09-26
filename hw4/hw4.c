@@ -2,13 +2,14 @@
 // You must use a while-loop for this function
 int num_of_divisors(int n) {
   int c;
+  int i;
   c = 0;
-  i = 1;
+  i = 0;
   while (c <= n) {
     if(n % c == 0) {
-      c = c++;
+      c = c + 1;
     }  
-    i = i++;
+    i = i + 1;
   return c;
   }
 }
@@ -22,7 +23,8 @@ int num_of_primes(int n) {
   int c;
   i = 0;
   c = 0;
-  retd = int num_of_divisors(n);
+  int retd;
+  retd = num_of_divisors(n);
   
   while (i < n) {
     if (retd == 2) {
@@ -30,7 +32,7 @@ int num_of_primes(int n) {
   return c;
     }
 }
-
+}
 // given a non-negative int n, return the sum 0+1+2+...+n
 // You must use a while-loop for this function, no recursion.
 int sum_n(int n) {
