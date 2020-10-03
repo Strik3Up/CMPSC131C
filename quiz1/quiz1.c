@@ -9,7 +9,7 @@ int digit_sum_base(int z, int bas3) {
     int zf;
     zf = n%bas3;
     printf("answer is %d.",zf);
-    int x
+    int x;
     x = x+1;
   }
     
